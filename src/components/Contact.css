@@ -1,0 +1,33 @@
+.contact {
+  background: var(--navy);
+  padding: 64px 0 40px;
+  text-align: center;
+}
+
+.contact-inner h2 {
+  color: #fff;
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  margin-bottom: 28px;
+}
+
+.contact-inner p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.05rem;
+  margin: 0 0 14px;
+}
+
+.contact-inner a {
+  color: var(--sky-light);
+  font-weight: 600;
+}
+
+.contact-inner a:hover,
+.contact-inner a:focus-visible {
+  text-decoration: underline;
+}
+
+.contact-copyright {
+  margin-top: 32px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
